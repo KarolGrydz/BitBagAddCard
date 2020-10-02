@@ -40,6 +40,7 @@ if (btn) {
 
   btn.addEventListener('click', (e) => {
     e.preventDefault();
+    // form.submit();
     success.appendChild(closeIcon);
     success.appendChild(checkmarkIcon);
     success.appendChild(content);
