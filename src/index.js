@@ -61,4 +61,8 @@ if (btn) {
       .then((data) => console.log('success', data))
       .catch((err) => console.log('error', err));
   });
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+  });
 }
